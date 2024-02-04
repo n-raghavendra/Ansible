@@ -1,0 +1,14 @@
+- name: nginx installation
+  hosts: 3.95.242.205
+  remote_user: root
+
+  tasks:
+  - name: install nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: latest
+
+  - name: start nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
