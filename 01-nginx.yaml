@@ -1,5 +1,5 @@
 - name: nginx installation
-  hosts: 3.95.242.205
+  hosts: web
   remote_user: root
 
   tasks:
