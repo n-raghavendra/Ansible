@@ -1,6 +1,6 @@
 - name: nginx installation
   hosts: web
-  remote_user: root
+ 
 
   tasks:
   - name: install nginx
