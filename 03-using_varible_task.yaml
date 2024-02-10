@@ -3,8 +3,8 @@
   
   tasks:
    - name: checking variable
-      vars:
+     vars:
         Course: AWS from task
         Trainee: Raghava from task
-      ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "Hi, My course is {{Course}}, Trainee is {{Trainee}}"
