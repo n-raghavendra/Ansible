@@ -1,6 +1,8 @@
 - name: using variable
   hosts: localhost
-  
+  vars:
+    Course: AWS from vars
+    Trainee: Raghava from vars
   tasks:
    - name: checking variable
      vars:
