@@ -1,0 +1,22 @@
+- name: using variable
+  hosts: localhost
+  become: yes
+  tasks:
+   -  name: checking user
+      ansible.builtin.command: id robouser
+      register: Username
+
+      name: Mentioning the user
+      ansible.builtin.debug:
+      msg: "user is {{Username}}"
+
+      name: Status of the user
+      ansible.builtin.debug:
+      msg: "user is {{Username.rc}}"
+
+      ansible.builtin.user:
+      name: robouser
+      state: present
+    when: Username.rc != 0
+
+

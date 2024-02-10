@@ -1,0 +1,11 @@
+- name: using variable
+  hosts: localhost
+  tasks:
+
+    ansible.builtin.item:
+    msg: "user name is {{item}}""
+
+    loop:
+     - ramesh
+     - suresh
+     - marshell

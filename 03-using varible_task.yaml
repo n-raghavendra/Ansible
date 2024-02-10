@@ -1,0 +1,10 @@
+- name: using variable
+  hosts: localhost
+  
+  tasks:
+  vars:
+    Course: AWS from task
+    Trainee: Raghava from task
+  - name: checking variables
+    ansible.builtin.debug:
+      msg: "Hi, My course is {{Course}}, Trainee is {{Trainee}}"

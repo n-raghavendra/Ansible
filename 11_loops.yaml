@@ -1,0 +1,13 @@
+- name: using variable
+  hosts: localhost
+  become: yes
+  tasks:
+
+    ansible.builtin.item:
+    msg: "Installing package is {{item}}"
+    state: present
+
+    loop:
+     - nginx
+     - mysql
+     - python
