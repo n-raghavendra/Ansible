@@ -8,3 +8,8 @@
     ansible.builtin.yum:
       name: nginx
       state: present
+
+  - name: start nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: started
