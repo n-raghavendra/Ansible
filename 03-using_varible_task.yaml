@@ -5,6 +5,6 @@
   vars:
     Course: AWS from task
     Trainee: Raghava from task
-  - name: checking variables
+    - name: checking variables
     ansible.builtin.debug:
       msg: "Hi, My course is {{Course}}, Trainee is {{Trainee}}"
