@@ -2,7 +2,6 @@
   hosts: localhost
   
   tasks:
-  - name: checking variables
     vars:
       Course: AWS from task
       Trainee: Raghava from task
