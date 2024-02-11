@@ -5,6 +5,7 @@
    - name: checking user
      ansible.builtin.command: id robouser
      register: Username
+     ignore_errors: true
 
    - name: Mentioning the user
      ansible.builtin.debug:
