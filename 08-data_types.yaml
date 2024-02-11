@@ -1,7 +1,8 @@
 - name: using variable
   hosts: localhost
   vars:
-      
+    Name: Raghava
+    Trainer: true      
     skills:
       - devops
       - aws
