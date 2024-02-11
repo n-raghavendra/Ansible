@@ -9,5 +9,7 @@
 
     loop:
      - {name: "nginx" , state: "present"}
-     - {name: "mysql" , state: "absent"}
-     - {name: "python3" , state: "present"}
+     - {name: "mysql" , state: "present"}
+     - {name: "python3" , state: "absent"}
+     - {name: "java" , state: "present"}
+     
