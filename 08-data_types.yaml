@@ -12,22 +12,22 @@
       MI: 3
     Name: Raghava
     Trainer: true
-    
+
   tasks:
    - name: Mentioning your skills
-      ansible.builtin.debug:
+    ansible.builtin.debug:
         msg: "skills is {{skills}}"
 
    - name: Mentioning your Experience
-      ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "Overall experience is {{Experience}}"
 
    - name: Giving trainer Name
-      ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "Trainer name is {{Name}}"
 
    - name: Giving Boolean value
-      ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "Is he trainer: {{Trainer}}"
 
 
