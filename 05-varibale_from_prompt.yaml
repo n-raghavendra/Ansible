@@ -1,14 +1,13 @@
 - name: using variable
   hosts: localhost
-  
-  vars_prompt:
-  - name: Enter username
-    msg: Enter username
-    private: false
-  - name: Enter password
-    msg: Enter password
-    private: True
   tasks:
-  - name: checking variables
+    vars_prompt:
+     - name: Enter username
+       msg: Enter username
+       private: false
+     - name: Enter password
+       msg: Enter password
+       private: True
+  
     ansible.builtin.debug:
       msg: "Hi, Your username is {{Course}}, password is {{Trainee}}"
