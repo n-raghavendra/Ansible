@@ -6,6 +6,6 @@
       msg: "user name is {{item}}"
 
   loop:
-  - ramesh
-  - suresh
-  - marshell
+    - ramesh
+    - suresh
+    - marshell
