@@ -1,0 +1,13 @@
+- name: using variable
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: installing package
+    ansible.builtin.yum:
+      name: "{{item.name}}"
+      state: "{{item.state}}"
+
+    loop:
+     - {name: "nginx" , state: "present"}
+     - {name: "mysql" , state: "absent"}
+     - {name: "python3" , state: "present"}
