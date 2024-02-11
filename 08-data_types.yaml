@@ -3,9 +3,7 @@
   vars:
     Trainer: yes
     Name: Raghava
-  
-  tasks:
-
+    
     skills:
     - devops
     - aws
@@ -16,6 +14,9 @@
       aws: 5
       MI: 3
   
+  
+  tasks:
+
    - name: Mentioning your skills
       ansible.builtin.debug:
         msg: "skills is {{skills}}"
