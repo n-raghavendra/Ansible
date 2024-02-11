@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     Name: Raghava
-    Trainer: true      
+    Trainer: yes      
     skills:
       - devops
       - aws
@@ -12,6 +12,7 @@
       aws: 5
       MI: 3
     Name: Raghava
+
     Trainer: true
 
   tasks:
