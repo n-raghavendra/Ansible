@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: Status of the user
-    ansible.builtin.item:
+    ansible.builtin.items:
       msg: "user name is {{item}}"
 
     loop:
