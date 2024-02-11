@@ -8,9 +8,9 @@
       - aws
       - MI
     Experience:
-      DevOps: 6
-      aws: 5
-      MI: 3
+    DevOps: 6
+    aws: 5
+    MI: 3
 
   tasks:
   - name: Mentioning your skills
