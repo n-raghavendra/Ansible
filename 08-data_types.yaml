@@ -11,9 +11,6 @@
       DevOps: 6
       aws: 5
       MI: 3
-    Name: Raghava
-
-    Trainer: true
 
   tasks:
    - name: Mentioning your skills
