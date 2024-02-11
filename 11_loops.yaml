@@ -4,10 +4,10 @@
   tasks:
   - name: installing package
     ansible.builtin.yum:
-      name: {{item}}
+      name: "{{item}}"
       state: present
 
     loop:
-     - nginx
-     - mysqls
-     - python
+    - nginx
+    - mysqls
+    - python
