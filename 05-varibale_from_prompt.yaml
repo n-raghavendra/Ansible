@@ -8,6 +8,6 @@
     prompt: Enter papa
     private: true
   tasks:
-    - name: Checking Details
-      ansible.builtin.debug:
-        msg: "Hi, Your username is {{Username}}, password is {{Password}}"
+  - name: Checking Details
+    ansible.builtin.debug:
+      msg: "Hi, Your username is {{Username}}, password is {{Password}}"
