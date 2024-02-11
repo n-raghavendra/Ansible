@@ -14,9 +14,9 @@
      ansible.builtin.debug:
       msg: "user is {{Username.rc}}"
 
+   - name: creating the user
      ansible.builtin.user:
       name: robouser
-      state: present
-    when: Username.rc != 0
+     when: Username.rc != 0
 
 
