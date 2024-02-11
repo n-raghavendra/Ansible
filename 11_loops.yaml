@@ -5,6 +5,7 @@
   - name: installing package
     ansible.builtin.package:
       msg: "Installing package {{item}}"
+      name: {{item}}
       state: present
 
     loop:
