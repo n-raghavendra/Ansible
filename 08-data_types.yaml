@@ -11,11 +11,10 @@
       DevOps: 6
       aws: 5
       MI: 3
-
   tasks:
   - name: Mentioning your skills
     ansible.builtin.debug:
-        msg: "skills is {{skills}}"
+      msg: "skills is {{skills}}"
 
   - name: Mentioning your Experience
     ansible.builtin.debug:
