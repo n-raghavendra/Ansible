@@ -1,7 +1,7 @@
 - name: using variable
   hosts: localhost
   vars:
-    Trainer: yes
+    Trainer: true
     Name: Raghava
     
     skills:
