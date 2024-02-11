@@ -15,7 +15,7 @@
 
   tasks:
    - name: Mentioning your skills
-    ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "skills is {{skills}}"
 
    - name: Mentioning your Experience
