@@ -3,11 +3,11 @@
   tasks:
     vars_prompt:
      - name: Enter username
-       msg: Enter username
+       Username: Enter username
        private: false
      - name: Enter password
-       msg: Enter password
+       Password: Enter password
        private: True
   
     ansible.builtin.debug:
-      msg: "Hi, Your username is {{Course}}, password is {{Trainee}}"
+      msg: "Hi, Your username is {{Username}}, password is {{Password}}"
