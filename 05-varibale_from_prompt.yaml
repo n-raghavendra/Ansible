@@ -6,7 +6,7 @@
     private: false
   - name: Password
     prompt: Enter password
-    private: True
+    private: true
   tasks:
     - name: Checking Details
       ansible.builtin.debug:
