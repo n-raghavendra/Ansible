@@ -4,9 +4,9 @@
     Name: Raghava
     Trainer: yes      
     skills:
-      - devops
-      - aws
-      - MI
+    - devops
+    - aws
+    - MI
     Experience:
       DevOps: 6
       aws: 5
