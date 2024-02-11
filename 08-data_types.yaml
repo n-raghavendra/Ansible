@@ -11,10 +11,10 @@
     - aws
     - MI
 
-   Experience:
-    DevOps: 6
-    aws: 5
-    MI: 3
+    Experience:
+      DevOps: 6
+      aws: 5
+      MI: 3
   
    name: Mentioning your skills
    ansible.builtin.debug:
