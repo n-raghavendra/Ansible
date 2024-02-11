@@ -2,9 +2,9 @@
   hosts: localhost
   become: yes
   tasks:
-
-    ansible.builtin.item:
-    msg: "Installing package is {{item}}"
+  - name: installing package
+    ansible.builtin.package:
+      msg: "Installing package {{item}}"
     state: present
 
     loop:
