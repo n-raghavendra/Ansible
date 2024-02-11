@@ -4,7 +4,7 @@
   tasks:
    - name: checking user
      ansible.builtin.command: id robouser
-      register: Username
+     register: Username
 
    - name: Mentioning the user
      ansible.builtin.debug:
