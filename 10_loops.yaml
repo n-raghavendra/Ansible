@@ -5,7 +5,7 @@
     ansible.builtin.item:
       msg: "user name is {{item}}"
 
-  loop:
+    loop:
     - ramesh
     - suresh
     - marshell
