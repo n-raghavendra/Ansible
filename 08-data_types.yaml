@@ -16,21 +16,21 @@
       aws: 5
       MI: 3
   
-   name: Mentioning your skills
-   ansible.builtin.debug:
-   msg: "skills is {{skills}}"
+   - name: Mentioning your skills
+      ansible.builtin.debug:
+        msg: "skills is {{skills}}"
 
-   name: Mentioning your Experience
-   ansible.builtin.debug:
-   msg: "Overall experience is {{Experience}}"
+   - name: Mentioning your Experience
+      ansible.builtin.debug:
+        msg: "Overall experience is {{Experience}}"
 
-   name: Giving trainer Name
-   ansible.builtin.debug
-   msg: "Trainer name is {{Name}}"
+   - name: Giving trainer Name
+      ansible.builtin.debug:
+        msg: "Trainer name is {{Name}}"
 
-   name: Giving Boolean value
-   ansible.builtin.debug
-   msg: "Is he trainer: {{Trainer}}"
+   - name: Giving Boolean value
+      ansible.builtin.debug:
+        msg: "Is he trainer: {{Trainer}}"
 
 
 
